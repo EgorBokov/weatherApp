@@ -32,7 +32,7 @@
                 </div>
                 <div class="degree_scale">
                     <span id="main_deg_scale" class="main_deg">+20°C</span>
-                    <span id="sub_deg scale" class="sub_deg">Feels like 18°C</span>
+                    <span id="sub_deg_scale" class="sub_deg">Feels like 18°C</span>
                 </div>
 
             </div>
@@ -52,16 +52,16 @@
                         </div>
                         <div class="block">
                             <img class="mini-logo" src="images/stopwatch.png">
-                            <span class="speed">1202pHg</span>
+                            <span id="pressure" class="speed">1202pHg</span>
                         </div>
                     </div>
                 </div>
 
 
                 <div id="img_weather" class="weather-icon">
-                    <img class="main_img" src="https://openweathermap.org/img/wn/04d@2x.png" alt="">
+                    <span id="img_holder"><img id="main_img" class="main_img" src="https://openweathermap.org/img/wn/04d@2x.png" alt=""></span>
                     <div class="now_date">
-                        <span class="week_day">Mon</span>, <span class="today_date">20.9.2021</span>
+                        <span id="week_day" class="week_day">Mon</span>, <span id="today_date" class="today_date">20.9.2021</span>
                     </div>
                 </div>
             </div>
@@ -69,101 +69,101 @@
 
             <div class="infoblock all-info">
 
-                <div class="subblock subweather_block">
+                <div id="mon" class="subblock subweather_block">
                     <span class="icon_day" style="font-size: 25px;">WEN</span>
-                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
-                    <span style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
+                    <img class="sub_main_logo" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                    <span class="deg_span" style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
                     <div class="block">
                         <img class="mini-logo" src="images/raindrop.png">
-                        <span class="speed">25%</span>
+                        <span class="speed sub_humidity">25%</span>
                     </div>
                     <div class="block">
                         <img class="mini-logo" src="images/flag.png">
-                        <span class="speed">123/h</span>
+                        <span class="speed sub_pressure">123/h</span>
                     </div>
                 </div>
 
-                <div class="subblock subweather_block">
+                <div id="tue" class="subblock subweather_block">
                     <span class="icon_day" style="font-size: 25px;">THU</span>
-                    <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="">
-                    <span style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
+                    <img class="sub_main_logo" src="https://openweathermap.org/img/wn/03d@2x.png" alt="">
+                    <span class="deg_span" style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
                     <div class="block">
                         <img class="mini-logo" src="images/raindrop.png">
-                        <span class="speed">25%</span>
+                        <span class="speed sub_humidity">25%</span>
                     </div>
                     <div class="block">
                         <img class="mini-logo" src="images/flag.png">
-                        <span class="speed">123/h</span>
+                        <span class="speed sub_pressure">123/h</span>
                     </div>
                 </div>
 
-                <div class="subblock subweather_block">
+                <div id="wen" class="subblock subweather_block">
                     <span class="icon_day" style="font-size: 25px;">FRI</span>
-                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
-                    <span style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
+                    <img class="sub_main_logo" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                    <span class="deg_span" style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
                     <div class="block">
                         <img class="mini-logo" src="images/raindrop.png">
-                        <span class="speed">25%</span>
+                        <span class="speed sub_humidity">25%</span>
                     </div>
                     <div class="block">
                         <img class="mini-logo" src="images/flag.png">
-                        <span class="speed">123/h</span>
+                        <span class="speed sub_pressure">123/h</span>
                     </div>
                 </div>
 
-                <div class="subblock subweather_block">
+                <div id="thu" class="subblock subweather_block">
                     <span class="icon_day" style="font-size: 25px; padding-top: -10px;">SAT</span>
-                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
-                    <span style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
+                    <img class="sub_main_logo" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                    <span class="deg_span" style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
                     <div class="block">
                         <img class="mini-logo" src="images/raindrop.png">
-                        <span class="speed">25%</span>
+                        <span class="speed sub_humidity">25%</span>
                     </div>
                     <div class="block">
                         <img class="mini-logo" src="images/flag.png">
-                        <span class="speed">123/h</span>
+                        <span class="speed sub_pressure">123/h</span>
                     </div>
                 </div>
 
-                <div class="subblock subweather_block">
+                <div id="fri" class="subblock subweather_block">
                     <span class="icon_day" style="font-size: 25px;">SUN</span>
-                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
-                    <span style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
+                    <img class="sub_main_logo" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                    <span class="deg_span" style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
                     <div class="block">
                         <img class="mini-logo" src="images/raindrop.png">
-                        <span class="speed">25%</span>
+                        <span class="speed sub_humidity">25%</span>
                     </div>
                     <div class="block">
                         <img class="mini-logo" src="images/flag.png">
-                        <span class="speed">123/h</span>
+                        <span class="speed sub_pressure">123/h</span>
                     </div>
                 </div>
 
-                <div class="subblock subweather_block">
+                <div id="sat" class="subblock subweather_block">
                     <span class="icon_day" style="font-size: 25px;">MON</span>
-                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
-                    <span style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
+                    <img class="sub_main_logo" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                    <span class="deg_span" style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
                     <div class="block">
                         <img class="mini-logo" src="images/raindrop.png">
-                        <span class="speed">25%</span>
+                        <span class="speed sub_humidity">25%</span>
                     </div>
                     <div class="block">
                         <img class="mini-logo" src="images/flag.png">
-                        <span class="speed">123/h</span>
+                        <span class="speed sub_pressure">123/h</span>
                     </div>
                 </div>
 
-                <div class="subblock subweather_block">
+                <div id="sun" class="subblock subweather_block">
                     <span class="icon_day" style="font-size: 25px;">TUE</span>
-                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
-                    <span style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
+                    <img class="sub_main_logo" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                    <span class="deg_span" style="font-size: 25px; margin-top: -10px;">19C&deg;</span>
                     <div class="block">
                         <img class="mini-logo" src="images/raindrop.png">
-                        <span class="speed">25%</span>
+                        <span class="speed sub_humidity">25%</span>
                     </div>
                     <div class="block">
                         <img class="mini-logo" src="images/flag.png">
-                        <span class="speed">123/h</span>
+                        <span class="speed sub_pressure">123/h</span>
                     </div>
                 </div>
 
